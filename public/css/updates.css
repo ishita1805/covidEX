@@ -38,6 +38,9 @@ a{
     min-height:10vh;
     border-left:solid 1px rgba(182, 182, 182, 0.39);
 }
+.t:hover{
+    background:rgb(207, 207, 207);
+}
 .h{
     width:100%;
     height:7vh;

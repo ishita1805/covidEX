@@ -16,8 +16,6 @@ app.get('/',(req,res)=>{
 
 app.get('/covid-stats',(req,res)=>{
     covid((err,body)=>{
-       console.log(body.statewise);
-    //    res.send(body.statewise)
         res.render('updates',{data:body.statewise})
 
     })

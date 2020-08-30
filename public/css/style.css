@@ -119,6 +119,7 @@ html {
      align-items:center;
      justify-content:center;
  }
+
  .button{
      padding:2vh 3vh;
      border-radius:4px;
@@ -181,6 +182,10 @@ html {
     border-bottom:solid rgb(184, 211, 226) 2px;
     border-right:solid rgb(184, 211, 226) 2px;
 }
+.dev-grid{
+    width:400px;
+    height:auto;
+}
 a{
     text-decoration:none;
     color:white;
@@ -230,4 +235,11 @@ a{
 .about-img{
     min-width:100%;
 }
+
+}
+@media screen and (max-width:600px){
+    .dev-grid{
+        width:100%;
+        height:auto;
+    }
 }

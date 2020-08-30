@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/updates.css"> 
+    <title>CovidEX | Get all the latest covid updates here</title>
+</head>
+<body>
+    <div class="flex-container">
+         <h1>Covid'19 Realtime Updates</h1>
+         <a href="/">Home</a>
+         <div class="table">
+             <div class="table-col">
+                <div class="h" id="c1">Region</div>
+                {{#each data}}		
+                <div class="t">{{state}}</div>
+                {{/each}}
+             </div>
+             <div class="table-col">
+                <div class="h" id="c2">Infected</div>
+                 {{#each data}}		
+                <div class="t">{{confirmed}}</div>
+                {{/each}}
+             </div>
+              <div class="table-col">
+                <div class="h" id="c5">Active</div>
+                 {{#each data}}		
+                <div class="t">{{active}}</div>
+                {{/each}}
+             </div>
+             <div class="table-col">
+                <div class="h" id="c3">Recovered</div>
+                 {{#each data}}		
+                <div class="t">{{recovered}}</div>
+                {{/each}}
+             </div>
+             <div class="table-col">
+                <div class="h" id="c4">Deceased</div>
+                 {{#each data}}		
+                <div class="t">{{deaths}}</div>
+                {{/each}}
+             </div>
+         </div>
+    </div>
+   
+
+</body>
+</html>

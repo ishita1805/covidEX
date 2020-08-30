@@ -233,13 +233,16 @@ a{
     flex-direction:column;
 }
 .about-img{
-    min-width:100%;
+    min-width:90%;
+    padding: 5%;
 }
 
 }
 @media screen and (max-width:600px){
     .dev-grid{
-        width:100%;
+        width:80%;
         height:auto;
+        align-self:center;
+        left:0;
     }
 }

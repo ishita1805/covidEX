@@ -188,13 +188,13 @@ html {
 }
 a{
     text-decoration:none;
-    color:white;
+    color:rgb(255, 255, 255);
     cursor: pointer;
 }
 #updates{
     margin:2vh 0;
     font-weight:600;
-    color:rgb(66, 65, 63);
+    color:rgb(39, 39, 39);
     cursor: pointer;
     z-index:20;
 }
